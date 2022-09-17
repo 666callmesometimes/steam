@@ -1,0 +1,229 @@
+body {
+  background-color: #1b2838;
+  text-align: left;
+  color: #8f98a0;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+#head {
+  background: #171a21;
+  background-position: center top;
+  min-width: 940px;
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 104px;
+}
+#headlogo {
+  width: 176px;
+  height: 44px;
+  margin-left: 474px;
+  margin-top: 30px;
+  margin-right: 22px;
+  float: left;
+}
+#a1 {
+  color: #b8b6b4;
+  text-decoration: none;
+  font-family: "Motiva Sans", sans-serif;
+  margin-top: 45px;
+  margin-left: 9px;
+  float: left;
+}
+menu {
+  float: left;
+}
+#zainstaluj {
+  background-color: #5c7e10;
+  padding-left: 35px;
+  padding-right: 9px;
+  background-position: 10px 5px;
+  background-image: url(https://community.akamai.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+  background-repeat: no-repeat;
+  text-decoration: none;
+  color: #e5e4dc;
+  font-weight: normal;
+  position: relative;
+  height: 23px;
+  line-height: 23px;
+  margin-right: 3px;
+  margin-left: 220px;
+  margin-top: 6px;
+  float: left;
+}
+#zainstaluj1 {
+  background-color: #5c7e10;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  color: #e5e4dc;
+  font-weight: normal;
+  position: relative;
+  height: 21px;
+  line-height: 23px;
+  font-size: 11.5px;
+}
+#zaloguj {
+  color: #b8b6b4;
+  float: left;
+  margin-top: 11px;
+  font-size: 11px;
+  margin-left: 7px;
+}
+#zalogujsie:hover {
+  color: #e5e4dc;
+}
+#zalogujsie {
+  color: #b8b6b4;
+  text-decoration: none;
+}
+#info {
+  background: #131c27;
+  width: 950px;
+  height: 110px;
+  margin-top: 30px;
+  margin-left: 481px;
+  min-height: 45px;
+  padding-top: 10px;
+}
+#logowanie {
+  background: #16202d;
+  width: 950px;
+  height: 326px;
+  margin-top: 5px;
+  margin-left: 481px;
+  min-height: 45px;
+}
+#megacaselogin {
+  font-size: 25px;
+  font-family: "Bahnschrift Light";
+  font-weight: 500;
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+#infoicon {
+  margin-left: 20px;
+  float: left;
+}
+#uwagaicon {
+  float: left;
+  font-size: 17px;
+  font-family: "Bahnschrift Light";
+  font-weight: 500;
+  color: #e1b54a;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+input {
+  padding-top: 4px;
+  width: 215px;
+  margin-left: 18px;
+  box-sizing: border-box;
+  background-color: #0d131b;
+  outline: none;
+  border-radius: 3px;
+  border-color: black;
+  border-width: 0.5px;
+  color: #bfbfbf;
+  padding-bottom: 4px;
+}
+label {
+  margin-left: 20px;
+  font-family: "Motiva Sans", Sans-serif;
+}
+#l {
+  width: 104px;
+  height: 34px;
+  border: none;
+  font-size: 15px;
+  border-radius: 2px;
+  border: none;
+  padding: 1px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #d2e885;
+  background: #a4d007;
+  background: -webkit-linear-gradient(top, #a4d007 5%, #536904 95%);
+  background: linear-gradient(to bottom, #a4d007 5%, #536904 95%);
+}
+#l:hover {
+  background: #a4d007;
+  color: white;
+}
+#sit {
+  float: right;
+  margin-right: 20px;
+}
+#brakkonta {
+  font-family: "Motiva Sans", Sans-serif;
+  width: 420px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+#footer {
+  background: #101822;
+  text-align: left;
+  color: #8f98a0;
+  font-size: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 123px;
+  margin-top: 90px;
+}
+#valve {
+  margin-top: 36px;
+  margin-left: 481px;
+  float: left;
+}
+#valve2 {
+  font-family: "Motiva Sans", Sans-serif;
+  font-size: 12px;
+  margin-left: 588px;
+  padding-top: 34px;
+  margin-bottom: 0;
+  width: 820px;
+}
+#foot {
+  text-decoration: none;
+  font-family: "Motiva Sans", Sans-serif;
+  color: #c6d4df;
+  font-size: 12px;
+}
+#foot:hover {
+  color: #ebebeb;
+}
+#foot1 {
+  margin-left: 590px;
+}
+#login {
+  float: left;
+}
+#prawo {
+  font-family: "Motiva Sans", Sans-serif;
+  font-size: 15px;
+  margin-left: 495px;
+  padding-top: 20px;
+  color: #67c1f5;
+}
+li {
+  font-family: "Motiva Sans", Sans-serif;
+  font-size: 13px;
+  margin-left: 495px;
+  padding-top: 5px;
+  width: 400px;
+}
+#ostatnie {
+  width: 380px;
+}
+#prawo2 {
+  font-family: "Motiva Sans", Sans-serif;
+  font-size: 15px;
+  margin-left: 495px;
+  padding-top: 10px;
+  color: #67c1f5;
+}

